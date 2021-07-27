@@ -5,8 +5,10 @@ A collection of useful guides to help with development.
 
 ## Table of Contents Ubuntu
 
-1. **[Installing Java Versions](#1installing-java-versions)**
-2. **[Switching Java Versions](#2switching-java-versions)**
+1. **[Installing Java Versions](#1-installing-java-versions)**
+2. **[Switching Java Versions](#2-switching-java-versions)**
+
+---
 
 ### 1. Installing Java Versions
 This guide shows you how to install Java without *apt*.
@@ -36,9 +38,13 @@ In the following example i'm installing Java 16 from AdoptOpenJDK.
 
 That is all. Have fun :coffee:
 
+---
+
 ### 2. Switching Java Versions
 With *update-alternatives* it is a easy as:
 <br>
 `sudo update-alternatives --config java`
 <br>
 and choose an installed version.
+
+---
